@@ -1,4 +1,9 @@
 <div>
+    @if (@session('error'))
+
+    <P>{{ session('error') }}</P>
+
+    @endif
     @include('livewire.includes.create-todos')
 
     @include('livewire.includes.searchbox')
