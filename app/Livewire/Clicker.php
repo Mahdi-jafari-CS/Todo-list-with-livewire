@@ -32,10 +32,6 @@ class Clicker extends Component
 
     session()->flash('message' , 'User Created Successfully');
     }
-
-
-
-
     public function render()
     {
 
